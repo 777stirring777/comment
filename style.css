@@ -1,0 +1,46 @@
+input[type=text],
+input[type=email]{
+	width: 480px;
+	height: 30px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+textarea{
+	width: 480px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.comment-inputs,
+.comments-list{
+	width: 500px;
+}
+.comments-list div:nth-child(2n){
+	background: rgba(0,0,255, 0.1);
+}
+.comments-list div.exelent {
+	background: red;
+}
+.comment-inputs small{
+  color: rgb(255, 0, 0);
+  margin: 0;
+  display: none;
+}
+
+.comment-inputs .error-required input,
+.comment-inputs .error-invalid input,
+.comment-inputs .error-min input{
+  border: 1px solid #ff0000;
+}
+.comment-inputs .error-required .required,
+.comment-inputs .error-invalid .invalid,
+.comment-inputs .error-min .min{
+  display: inline;
+}
+
+button{
+	background: transparent;
+	border: 1px solid #ccc;
+	height: 30px;
+	cursor: pointer;
+}
